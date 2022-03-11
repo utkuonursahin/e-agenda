@@ -1,0 +1,21 @@
+@use "../abstracts" as abs;
+.buttons{
+  display: flex;
+  gap: 2.5rem;
+  & button{
+    width: 20rem;
+    height: 5rem;
+    padding: 0;
+    & div, div span{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      & svg{
+        width: 2rem;
+        height: 2rem;
+        fill: abs.$color-white;
+      }
+    }
+  }
+}

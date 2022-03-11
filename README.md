@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+#Project Description
+This is an indie project which I came up myself. It's not a challenge or clone project.
+I had an idea about a calendar app then I discovered the React library Mantine and wanted to use it for that idea.
+In e-agenda app you can:
+- Create, edit and delete a plan on dates with expression and hour informations.
+- View your plan on dates.
+##Feature Notes
+- Users should be able to add, edit and delete **multiple** plans on a day.
+- **Animations** and new styles can be added to project (such as theme).
+- Project structure may get better.
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 

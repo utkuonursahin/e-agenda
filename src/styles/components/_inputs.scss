@@ -1,0 +1,4 @@
+@use "../abstracts" as abs;
+.mantine{
+  &-TextInput-root label, &-TimeInput-root label{color: abs.$color-white;}
+}

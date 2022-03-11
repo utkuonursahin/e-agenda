@@ -1,0 +1,36 @@
+@use "../abstracts" as abs;
+.mantine-Calendar{
+  &-calendarBase{
+    justify-content: center;
+  }
+  &-day{
+    width: 10rem;
+    height: 8rem;
+    color: abs.$color-white;
+    &:hover{background-color: abs.$color-blue; color: abs.$color-white !important;}
+  }
+  &-outside{
+    opacity: .5;
+    &:hover{opacity: 1}
+  }
+  &-month tr &-cell &-weekend{color: abs.$color-blue;}
+  &-calendarHeaderLevel,&-calendarHeaderControl, &-monthPickerControl,&-yearPickerControl{
+    color: abs.$color-white;
+    &:hover{background-color: abs.$color-blue;}
+  }
+  &-selected{
+    background-color: abs.$color-blue !important;
+    color: abs.$color-white !important;
+  }
+  &-yearPicker{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &-monthPickerControls, &-yearPickerControls{width: max-content;}
+  &-monthPickerControl, &-yearPickerControl{
+    width: 3rem;
+    height: 8rem;
+  }
+}
