@@ -4,10 +4,11 @@
     justify-content: center;
   }
   &-day{
-    width: 10rem;
-    height: 8rem;
+    width: min(14vw,10rem);
+    height: 8vh;
     color: abs.$color-white;
     &:hover{background-color: abs.$color-blue; color: abs.$color-white !important;}
+    @media only screen and (min-width: abs.$bp-smallest){height: 8rem;}
   }
   &-outside{
     opacity: .5;
@@ -30,7 +31,7 @@
   }
   &-monthPickerControls, &-yearPickerControls{width: max-content;}
   &-monthPickerControl, &-yearPickerControl{
-    width: 3rem;
-    height: 8rem;
+    width: min(7.5vw,3rem);
+    height: min(10vh,8rem);
   }
 }
